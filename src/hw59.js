@@ -1,9 +1,5 @@
-const likeBtn = document.querySelector('.like-action');
+const likeButton = document.querySelector('.like-button');
 
-likeBtn.addEventListener('click', () => {
-  const heartIcon = likeBtn.querySelector('i');
-
-  heartIcon.classList.toggle('text-danger');
-  heartIcon.classList.toggle('far');
-  heartIcon.classList.toggle('fas');
+likeButton.addEventListener('click', function() {
+  likeButton.classList.toggle('clicked');
 });
