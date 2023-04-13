@@ -8,14 +8,30 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
 </head>
 <body>
-<div class="post">
-    <img src="post.jpg" alt="Post image">
-    <br>
-    <br>
-    <div class="post-actions">
-    <span class="h1 mx-2 like-button text-danger">
-        <i class="bi bi-heart-fill"></i>
-    </span>
+<div id="splash-screen">
+    <button id="login-btn">Войти</button>
+</div>
+<div id="main-content" style="display: none;">
+    <div class="card mx-auto mt-4" style="width: 25rem;">
+        <div class="position-relative">
+            <img src="mandalorian.jpg" class="card-img-top" alt="post image">
+            <div class="h1 like-heart">
+                <i class="bi bi-suit-heart-fill"></i>
+            </div>
+        </div>
+        <div class="card-body">
+            <div class="post-actions">
+            <span class="h3 mx-2 like-button muted">
+                <i class="bi bi-suit-heart-fill"></i>
+            </span>
+                <span class="h3 mx-1 mt-0 comment-button muted">
+                <i class="bi bi-chat"></i>
+            </span>
+                <span class="h3 float-sm-right mt-0 save-button">
+                <i class="bi bi-bookmark-fill"></i>
+            </span>
+            </div>
+        </div>
     </div>
 </div>
 <script src="hw59.js"></script>
